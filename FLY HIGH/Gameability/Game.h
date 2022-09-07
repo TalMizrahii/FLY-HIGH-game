@@ -46,7 +46,7 @@ public:
     void whatToShow(bool endOfTheGame);
 
 private:
-    sf::RenderWindow window; // The widow of the game.
+    sf::RenderWindow window; // The window of the game.
     bool startFlag = true; // A boolean variable to know if to present the start screen.
 };
 
