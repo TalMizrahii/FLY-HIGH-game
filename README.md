@@ -6,6 +6,7 @@ between the pipes and the space between each pair of pipes is getting smaller, w
 
 I used SFML version 2.5.1 using <SFML/Graphics.hpp> library. The pipes are created randomly (I used srand() from cstdlib.h and rand() from random.h). Further 
 information about the design and code can be found in the documentation.
+
 <img width="593" alt="Capture11" src="https://user-images.githubusercontent.com/103560553/188944212-21a34071-8445-4602-b05d-9bb5c23306b8.PNG">
 <img width="597" alt="Capture" src="https://user-images.githubusercontent.com/103560553/188943934-b60a060d-07ec-42db-932c-9298d5236dde.PNG">
 
