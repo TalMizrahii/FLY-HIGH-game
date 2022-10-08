@@ -1,0 +1,3 @@
+"C:\Users\Tal Mizrahi\Desktop\coding\C\clion\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\FlyHigh.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\FlyHigh.dir/objects.a @CMakeFiles\FlyHigh.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\FlyHigh.dir/objects.a -Wl,--no-whole-archive -o FlyHigh.exe -Wl,--out-implib,libFlyHigh.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FlyHigh.dir\linklibs.rsp

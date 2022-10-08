@@ -1,0 +1,5 @@
+"C:\Users\Tal Mizrahi\Desktop\coding\C\clion\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\Tal Mizrahi\Desktop\coding\C\clion\CLionProjects\FlyHigh"
+-- Found SFML 2.5.1 in C:/SFML/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release

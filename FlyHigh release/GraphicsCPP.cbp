@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GraphicsCPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\SFML\;CMake Files\..\..\..\..\..\..\..\..\SFML\lib\;CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FlyHigh">
+				<Option output="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/FlyHigh.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 FlyHigh"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FlyHigh/fast">
+				<Option output="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/FlyHigh.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 FlyHigh/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/AbstractCollidable.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/AbstractCollidable.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/Collider.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/Collider.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/Obstacle.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/Obstacle.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/Player.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CollisionRelated/Player.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/AbstractGameFactory.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/AbstractGameFactory.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/Game.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/Game.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/GameOver.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/GameOver.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/Gameability/main.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/SpriteRelated/AbstractSprites.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/SpriteRelated/AbstractSprites.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/SpriteRelated/Animation.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/SpriteRelated/Animation.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/SpriteRelated/Background.cpp">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/SpriteRelated/Background.h">
+			<Option target="FlyHigh"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/../../../../../../../../SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/../../../../../../../../SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/../../../../../../../../SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/../../../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/../../../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Tal Mizrahi/Desktop/coding/C/clion/CLionProjects/FlyHigh/../../../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
