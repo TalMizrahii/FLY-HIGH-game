@@ -1,2 +1,1 @@
-*.Makefile linguist-detectable=false  
-*.Makefile linguist-vendored=false
+*.* linguist-language=C++
