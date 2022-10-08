@@ -10,8 +10,7 @@ information about the design and code can be found in the documentation.
 <img width="593" alt="Capture11" src="https://user-images.githubusercontent.com/103560553/188944212-21a34071-8445-4602-b05d-9bb5c23306b8.PNG">
 <img width="597" alt="Capture" src="https://user-images.githubusercontent.com/103560553/188943934-b60a060d-07ec-42db-932c-9298d5236dde.PNG">
 
-*IMPORTANT* - If you wish to run the game, make sure you change every path to the textures and font on the AbstractGameFactory.cpp to the path in your computer. All of 
-those are located in the "resources" file.
+*IMPORTANT* - If you wish to run the game, you can downlaod the "Fly High release" package and run the "FlyHigh.exe" file. 
 
 Have fun!
 
