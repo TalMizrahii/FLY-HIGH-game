@@ -1,1 +1,2 @@
-*.Makefile linguist-vendored=false
+Makefile.in linguist-generated=true
+
