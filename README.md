@@ -1,6 +1,9 @@
 # FLY-HIGH-game
 Video game based on SFML, written in CPP.
-![gif](https://user-images.githubusercontent.com/103560553/188939558-7eed5d3e-97e8-45df-a9d4-f17687cfb21e.gif)
+
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/103560553/195300341-0b058240-58d1-4a41-a815-4aa8aa4448b0.gif)
+
 The purpose of the game is to fly as high as you can. The bird is controlled by the LEFT and RIGHT or A and D keys on the keyboard. As long as you fly higher, the gap 
 between the pipes and the space between each pair of pipes is getting smaller, what makes the game harder.
 
